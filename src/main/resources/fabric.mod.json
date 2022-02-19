@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "randachisvrblk",
+  "version": "${version}",
+
+  "name": "Random Server Blocks",
+  "description": "this mod adds serverside blocks that mimics blocks with restriction (like piston head)",
+  "authors": [
+    "Ayumi-Chizuru189"
+  ],
+  "contact": {
+    "homepage": "https://github.com/ayumi-chizuru189",
+    "sources": "https://github.com/ayumi-chizuru189/Random-Server-Blocks"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.ayumichizuru.randachisvrblk.RandAchiSvrBlk"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
