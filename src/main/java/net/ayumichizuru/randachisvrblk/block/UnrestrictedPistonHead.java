@@ -60,7 +60,8 @@ public class UnrestrictedPistonHead extends FacingBlock implements PolymerBlock 
     @Override
     public BlockState getPolymerBlockState(BlockState state) {
         return Blocks.PISTON_HEAD.getDefaultState()
-                .with(PistonHeadBlock.FACING, state.get(FacingBlock.FACING));
+                .with(PistonHeadBlock.FACING, state.get(FacingBlock.FACING))
+                .with(PistonHeadBlock.SHORT, true);
     }
 
 
