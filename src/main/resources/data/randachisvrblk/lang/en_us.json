@@ -1,6 +1,19 @@
 {
-  "item.randachisvrblk.unrestricted_piston_head": "Unrestricted Piston Head",
-  "item.randachisvrblk.unrestricted_white_bed": "Unrestricted White Bed",
   "block.randachisvrblk.unrestricted_piston_head": "Unrestricted Piston Head",
-  "block.randachisvrblk.unrestricted_white_bed": "Unrestricted White Bed"
+  "block.randachisvrblk.unrestricted_white_bed": "Unrestricted White Bed",
+  "block.randachisvrblk.unrestricted_red_bed": "Unrestricted Red Bed",
+  "block.randachisvrblk.unrestricted_light_gray_bed": "Unrestricted Light Gray Bed",
+  "block.randachisvrblk.unrestricted_magenta_bed": "Unrestricted Magenta Bed",
+  "block.randachisvrblk.unrestricted_yellow_bed": "Unrestricted Yellow Bed",
+  "block.randachisvrblk.unrestricted_light_blue_bed": "Unrestricted Light Blue Bed",
+  "block.randachisvrblk.unrestricted_purple_bed": "Unrestricted Purple Bed",
+  "block.randachisvrblk.unrestricted_orange_bed": "Unrestricted Orange Bed",
+  "block.randachisvrblk.unrestricted_green_bed": "Unrestricted Green Bed",
+  "block.randachisvrblk.unrestricted_brown_bed": "Unrestricted Brown Bed",
+  "block.randachisvrblk.unrestricted_black_bed": "Unrestricted Black Bed",
+  "block.randachisvrblk.unrestricted_pink_bed": "Unrestricted Pink Bed",
+  "block.randachisvrblk.unrestricted_lime_bed": "Unrestricted Lime Bed",
+  "block.randachisvrblk.unrestricted_gray_bed": "Unrestricted Gray Bed",
+  "block.randachisvrblk.unrestricted_cyan_bed": "Unrestricted Cyan Bed",
+  "block.randachisvrblk.unrestricted_blue_bed": "Unrestricted Blue Bed"
 }
