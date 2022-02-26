@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:gray_bed"
+  },
+  "result": "randachisvrblk:unrestricted_gray_bed",
+  "count": 2
+}

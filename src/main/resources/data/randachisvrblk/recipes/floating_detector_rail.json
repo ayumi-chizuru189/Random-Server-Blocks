@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "minecraft:detector_rail"
+      },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:floating_detector_rail",
+    "count": 8.0
+  }
+}

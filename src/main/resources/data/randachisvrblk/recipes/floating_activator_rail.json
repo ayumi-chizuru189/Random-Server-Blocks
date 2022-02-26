@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "minecraft:activator_rail"
+      },
+    "X": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:floating_activator_rail",
+    "count": 8.0
+  }
+}

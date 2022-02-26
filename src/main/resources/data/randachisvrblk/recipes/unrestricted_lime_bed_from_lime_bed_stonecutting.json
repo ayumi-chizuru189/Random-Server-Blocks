@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:lime_bed"
+  },
+  "result": "randachisvrblk:unrestricted_lime_bed",
+  "count": 2
+}

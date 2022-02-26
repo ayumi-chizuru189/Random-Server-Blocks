@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "randachisvrblk:unrestricted_white_bed",
+    "randachisvrblk:unrestricted_red_bed",
+    "randachisvrblk:unrestricted_light_gray_bed",
+    "randachisvrblk:unrestricted_magenta_bed",
+    "randachisvrblk:unrestricted_yellow_bed",
+    "randachisvrblk:unrestricted_light_blue_bed",
+    "randachisvrblk:unrestricted_purple_bed",
+    "randachisvrblk:unrestricted_orange_bed",
+    "randachisvrblk:unrestricted_green_bed",
+    "randachisvrblk:unrestricted_brown_bed",
+    "randachisvrblk:unrestricted_black_bed",
+    "randachisvrblk:unrestricted_pink_bed",
+    "randachisvrblk:unrestricted_lime_bed",
+    "randachisvrblk:unrestricted_gray_bed",
+    "randachisvrblk:unrestricted_cyan_bed",
+    "randachisvrblk:unrestricted_blue_bed"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "minecraft:dirt"
+      },
+    "X": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:unchanging_dirt_path",
+    "count": 8.0
+  }
+}

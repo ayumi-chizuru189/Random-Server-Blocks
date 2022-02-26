@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:green_bed"
+  },
+  "result": "randachisvrblk:unrestricted_green_bed",
+  "count": 2
+}

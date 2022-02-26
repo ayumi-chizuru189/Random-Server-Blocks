@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:rose_bush"
+  },
+  "result": "randachisvrblk:half_rose_bush",
+  "count": 2
+}

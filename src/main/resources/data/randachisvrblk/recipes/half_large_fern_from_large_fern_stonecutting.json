@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:large_fern"
+  },
+  "result": "randachisvrblk:half_large_fern",
+  "count": 2
+}

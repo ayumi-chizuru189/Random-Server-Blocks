@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "minecraft:snow"
+      },
+    "X": {
+      "item": "minecraft:honeycomb"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:unmeltable_snow",
+    "count": 8.0
+  }
+}

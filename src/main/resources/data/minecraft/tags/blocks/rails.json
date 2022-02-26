@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "randachisvrblk:floating_rail",
+    "randachisvrblk:floating_powered_rail",
+    "randachisvrblk:floating_detector_rail",
+    "randachisvrblk:floating_activator_rail"
+  ]
+}
+

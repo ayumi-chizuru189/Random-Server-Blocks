@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:lilac"
+  },
+  "result": "randachisvrblk:half_lilac",
+  "count": 2
+}

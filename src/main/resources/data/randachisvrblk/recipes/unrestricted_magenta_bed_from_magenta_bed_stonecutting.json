@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:magenta_bed"
+  },
+  "result": "randachisvrblk:unrestricted_magenta_bed",
+  "count": 2
+}

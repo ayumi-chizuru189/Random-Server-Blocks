@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:orange_bed"
+  },
+  "result": "randachisvrblk:unrestricted_orange_bed",
+  "count": 2
+}

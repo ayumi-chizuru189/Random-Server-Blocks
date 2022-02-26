@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:tall_grass"
+  },
+  "result": "randachisvrblk:half_tall_grass",
+  "count": 2
+}

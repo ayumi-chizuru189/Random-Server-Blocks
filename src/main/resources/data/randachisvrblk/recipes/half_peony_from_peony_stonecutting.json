@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:peony"
+  },
+  "result": "randachisvrblk:half_peony",
+  "count": 2
+}

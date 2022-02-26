@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:pink_bed"
+  },
+  "result": "randachisvrblk:unrestricted_pink_bed",
+  "count": 2
+}
