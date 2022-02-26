@@ -1,4 +1,4 @@
-# Unpushable Slab
+# Random Serverside Blocks
 this mod adds random blocks that i wanted to add.
 
 feel free to request blocks that you want as long as they're not too complicated
