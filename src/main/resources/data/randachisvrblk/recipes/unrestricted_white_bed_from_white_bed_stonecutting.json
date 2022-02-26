@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:white_bed"
-  },
-  "result": "randachisvrblk:unrestricted_white_bed",
-  "count": 2
-}
