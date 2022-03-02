@@ -96,6 +96,14 @@ public class ModItems {
             new ServersideBlockItem(ModBlocks.HALF_LARGE_FERN, Items.LARGE_FERN,
                     new Item.Settings().group(ItemGroup.DECORATIONS)));
 
+    public static final Item GELLED_WATER = registerItem("gelled_water",
+            new ServersideBlockItem(ModBlocks.GELLED_WATER, Items.LIGHT_BLUE_DYE,
+                    new Item.Settings().group(ItemGroup.DECORATIONS)));
+
+    public static final Item GELLED_LAVA = registerItem("gelled_lava",
+            new ServersideBlockItem(ModBlocks.GELLED_LAVA, Items.ORANGE_DYE,
+                    new Item.Settings().group(ItemGroup.DECORATIONS)));
+
 
     public static final Item UNRESTRICTED_WHITE_BED = registerItem("unrestricted_white_bed",
             new ServersideBlockItem(ModBlocks.UNRESTRICTED_WHITE_BED, Items.WHITE_BED,

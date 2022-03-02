@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "X#X",
+    "#X#"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "minecraft:water_bucket"
+      },
+    "X": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:gelled_water",
+    "count": 40.0
+  }
+}

@@ -30,7 +30,7 @@ public class ModBlocks {
                     FabricBlockSettings.of(Material.DECORATION).noCollision().breakInstantly().luminance(10)));
 
     public static final Block UNMELTABLE_SNOW = registerBlock("unmeltable_snow",
-            new UnmeltableSnow(FabricBlockSettings.of(Material.SNOW_LAYER).strength(0.1F).requiresTool().sounds(BlockSoundGroup.SNOW)
+            new UnmeltableSnow(FabricBlockSettings.of(Material.SNOW_LAYER).strength(0.1F).sounds(BlockSoundGroup.SNOW)
                     .blockVision((blockStatex, blockView, blockPos) -> blockStatex.get(SnowBlock.LAYERS) >= 8)
             ));
 
@@ -81,6 +81,12 @@ public class ModBlocks {
 
     public static final Block HALF_LARGE_FERN = registerBlock("half_large_fern",
             new HalfTallBlock(Blocks.LARGE_FERN, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+
+    public static final Block GELLED_WATER = registerBlock("gelled_water",
+            new GelledLiquid(Blocks.WATER, FabricBlockSettings.of(Material.AIR, MapColor.WATER_BLUE).strength(1200.0f).breakInstantly()));
+
+    public static final Block GELLED_LAVA = registerBlock("gelled_lava",
+            new GelledLiquid(Blocks.LAVA, FabricBlockSettings.of(Material.AIR, MapColor.BRIGHT_RED).strength(1200.0f).breakInstantly()));
 
 
     public static final Block UNRESTRICTED_WHITE_BED = registerBlock("unrestricted_white_bed",
