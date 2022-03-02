@@ -36,5 +36,7 @@
   "block.randachisvrblk.half_rose_bush" : "Half Rose Bush",
   "block.randachisvrblk.half_peony" : "Half Peony",
   "block.randachisvrblk.half_tall_grass" : "Half Tall Grass",
-  "block.randachisvrblk.half_large_fern" : "Half Large Fern"
+  "block.randachisvrblk.half_large_fern" : "Half Large Fern",
+  "block.randachisvrblk.gelled_water" : "Gelled Water",
+  "block.randachisvrblk.gelled_lava" : "Gelled Lava"
 }
