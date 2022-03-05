@@ -104,6 +104,14 @@ public class ModItems {
             new ServersideBlockItem(ModBlocks.GELLED_LAVA, Items.ORANGE_DYE,
                     new Item.Settings().group(ItemGroup.DECORATIONS)));
 
+    public static final Item GELL_REMOVER = registerItem("gell_remover",
+            new ServersideItem(Items.HEART_OF_THE_SEA,
+                    new Item.Settings().group(ItemGroup.DECORATIONS)));
+
+    public static final Item FAKE_FIRE = registerItem("fake_fire",
+            new ServersideBlockItem(ModBlocks.FAKE_FIRE, Items.FIRE_CHARGE,
+                    new Item.Settings().group(ItemGroup.DECORATIONS)));
+
 
     public static final Item UNRESTRICTED_WHITE_BED = registerItem("unrestricted_white_bed",
             new ServersideBlockItem(ModBlocks.UNRESTRICTED_WHITE_BED, Items.WHITE_BED,

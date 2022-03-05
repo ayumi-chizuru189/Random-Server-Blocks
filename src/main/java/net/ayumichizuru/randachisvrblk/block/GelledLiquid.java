@@ -1,9 +1,9 @@
 package net.ayumichizuru.randachisvrblk.block;
 
 import eu.pb4.polymer.api.block.PolymerBlock;
+import net.ayumichizuru.randachisvrblk.item.ModItems;
 import net.minecraft.block.*;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.item.Items;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.IntProperty;
@@ -13,10 +13,12 @@ import org.jetbrains.annotations.Nullable;
 
 public class GelledLiquid extends Block implements PolymerBlock {
     public static final IntProperty LEVEL = Properties.LEVEL_15;
-    private final Block blockmimic;
-    public GelledLiquid(Block blockmimic, Settings settings) {
+    private final Block blockmimic1;
+    private final Block blockmimic2;
+    public GelledLiquid(Block blockmimic1, Block blockmimic2, Settings settings) {
         super(settings);
-        this.blockmimic = blockmimic;
+        this.blockmimic1 = blockmimic1;
+        this.blockmimic2 = blockmimic2;
         this.setDefaultState(this.stateManager.getDefaultState().with(LEVEL, 7));
     }
 
@@ -50,21 +52,22 @@ public class GelledLiquid extends Block implements PolymerBlock {
 
     @Override
     public Block getPolymerBlock(BlockState state) {
-        return blockmimic;
+        return blockmimic1;
     }
 
     @Override
     public Block getPolymerBlock(ServerPlayerEntity player, BlockState state) {
-        return (player.getInventory().getMainHandStack().isOf(Items.CARROT_ON_A_STICK)) ? Blocks.KELP_PLANT : blockmimic;
+        return (player.getMainHandStack().isOf(ModItems.GELL_REMOVER)) ? blockmimic2 : blockmimic1;
     }
 
 
     @Override
     public BlockState getPolymerBlockState(ServerPlayerEntity player, BlockState state) {
-        return (player.getInventory().getMainHandStack().isOf(Items.CARROT_ON_A_STICK)) ?
-                Blocks.KELP_PLANT.getDefaultState()
+        return (player.getMainHandStack().isOf(ModItems.GELL_REMOVER)) ?
+                blockmimic2.getDefaultState()
+                .with(CoralParentBlock.WATERLOGGED, true)
                 :
-                blockmimic.getDefaultState()
+                blockmimic1.getDefaultState()
                .with(LEVEL, state.get(LEVEL));
     }
 

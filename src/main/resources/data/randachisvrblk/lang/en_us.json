@@ -38,5 +38,7 @@
   "block.randachisvrblk.half_tall_grass" : "Half Tall Grass",
   "block.randachisvrblk.half_large_fern" : "Half Large Fern",
   "block.randachisvrblk.gelled_water" : "Gelled Water",
-  "block.randachisvrblk.gelled_lava" : "Gelled Lava"
+  "block.randachisvrblk.gelled_lava" : "Gelled Lava",
+  "item.randachisvrblk.gell_remover" : "Gell Remover",
+  "block.randachisvrblk.fake_fire" : "Fake Fire"
 }

@@ -30,7 +30,7 @@ public class ModBlocks {
                     FabricBlockSettings.of(Material.DECORATION).noCollision().breakInstantly().luminance(10)));
 
     public static final Block UNMELTABLE_SNOW = registerBlock("unmeltable_snow",
-            new UnmeltableSnow(FabricBlockSettings.of(Material.SNOW_LAYER).strength(0.1F).sounds(BlockSoundGroup.SNOW)
+            new UnmeltableSnow(FabricBlockSettings.of(Material.STRUCTURE_VOID, MapColor.WHITE).strength(0.1F).sounds(BlockSoundGroup.SNOW)
                     .blockVision((blockStatex, blockView, blockPos) -> blockStatex.get(SnowBlock.LAYERS) >= 8)
             ));
 
@@ -59,34 +59,37 @@ public class ModBlocks {
             new FloatingPoweredRail(Blocks.ACTIVATOR_RAIL, FabricBlockSettings.of(Material.DECORATION).noCollision().strength(0.7f).sounds(BlockSoundGroup.METAL)));
 
     public static final Block STONE_PEBBLE = registerBlock("stone_pebble",
-            new StonePebble(Blocks.STONE_BUTTON, FabricBlockSettings.of(Material.DECORATION).noCollision().strength(0.5f)));
+            new StonePebble(Blocks.STONE_BUTTON, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().strength(0.5f)));
 
     public static final Block BLACKSTONE_PEBBLE = registerBlock("blackstone_pebble",
-            new StonePebble(Blocks.POLISHED_BLACKSTONE_BUTTON, FabricBlockSettings.of(Material.DECORATION).noCollision().strength(0.5f)));
+            new StonePebble(Blocks.POLISHED_BLACKSTONE_BUTTON, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().strength(0.5f)));
 
     public static final Block HALF_SUNFLOWER = registerBlock("half_sunflower",
-            new HalfTallBlock(Blocks.SUNFLOWER, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.SUNFLOWER, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block HALF_LILAC = registerBlock("half_lilac",
-            new HalfTallBlock(Blocks.LILAC, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.LILAC, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block HALF_ROSE_BUSH = registerBlock("half_rose_bush",
-            new HalfTallBlock(Blocks.ROSE_BUSH, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.ROSE_BUSH, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block HALF_PEONY = registerBlock("half_peony",
-            new HalfTallBlock(Blocks.PEONY, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.PEONY, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block HALF_TALL_GRASS = registerBlock("half_tall_grass",
-            new HalfTallBlock(Blocks.TALL_GRASS, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.TALL_GRASS, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block HALF_LARGE_FERN = registerBlock("half_large_fern",
-            new HalfTallBlock(Blocks.LARGE_FERN, FabricBlockSettings.of(Material.AIR).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
+            new HalfTallBlock(Blocks.LARGE_FERN, FabricBlockSettings.of(Material.STRUCTURE_VOID).noCollision().breakInstantly().sounds(BlockSoundGroup.GRASS)));
 
     public static final Block GELLED_WATER = registerBlock("gelled_water",
-            new GelledLiquid(Blocks.WATER, FabricBlockSettings.of(Material.AIR, MapColor.WATER_BLUE).strength(1200.0f).breakInstantly()));
+            new GelledLiquid(Blocks.WATER, Blocks.TUBE_CORAL, FabricBlockSettings.of(Material.STRUCTURE_VOID, MapColor.WATER_BLUE).strength(1200.0f).breakInstantly()));
 
     public static final Block GELLED_LAVA = registerBlock("gelled_lava",
-            new GelledLiquid(Blocks.LAVA, FabricBlockSettings.of(Material.AIR, MapColor.BRIGHT_RED).strength(1200.0f).breakInstantly()));
+            new GelledLiquid(Blocks.LAVA, Blocks.FIRE_CORAL, FabricBlockSettings.of(Material.STRUCTURE_VOID, MapColor.BRIGHT_RED).strength(1200.0f).breakInstantly().luminance(state -> 15)));
+
+    public static final Block FAKE_FIRE = registerBlock("fake_fire",
+            new FakeFire(FabricBlockSettings.of(Material.STRUCTURE_VOID, MapColor.BRIGHT_RED).noCollision().breakInstantly().luminance(state -> 15).sounds(BlockSoundGroup.WOOL)));
 
 
     public static final Block UNRESTRICTED_WHITE_BED = registerBlock("unrestricted_white_bed",

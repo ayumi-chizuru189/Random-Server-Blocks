@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#X#",
+    "XLX",
+    "#X#"
+  ],
+  "key": {
+    "#":
+      {
+        "item": "randachisvrblk:gelled_water"
+      },
+    "X": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "item": "randachisvrblk:gelled_lava"
+    }
+  },
+  "result": {
+    "item": "randachisvrblk:gell_remover"
+  }
+}
